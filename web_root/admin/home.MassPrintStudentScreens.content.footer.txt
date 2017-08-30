@@ -1,0 +1,9 @@
+<script>
+    $j('#footer').append(
+        '<h3>Selection Functions</h3><ul id="std_massPrint"></ul>'
+    );
+
+    $j('#std_massPrint').append(
+                    ('<li><a href="/admin/massPrintStudentScreens.html">Mass Print Student Screens</a></li>')+
+    );
+</script>
