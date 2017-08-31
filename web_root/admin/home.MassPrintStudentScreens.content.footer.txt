@@ -1,9 +1,9 @@
 <script>
-    $j('#footer').append(
+    $j('#nav-main-menu').append(
         '<h3>Selection Functions</h3><ul id="std_massPrint"></ul>'
     );
 
     $j('#std_massPrint').append(
-                    ('<li><a href="/admin/massPrintStudentScreens.html">Mass Print Student Screens</a></li>')+
+                    '<li><a href="/admin/massPrintStudentScreens.html">Mass Print Screens</a></li>'
     );
 </script>
