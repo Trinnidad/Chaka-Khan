@@ -1,1 +1,33 @@
-<h3>This is a test</h3>
+<!DOCTYPE html>
+<html>
+<!-- start right frame -->
+<head>
+    <title>Mass Print Student Screens</title>
+    ~[wc:commonscripts]
+    <link href="/images/css/screen.css" rel="stylesheet" media="screen">
+    <link href="/images/css/print.css" rel="stylesheet" media="print">
+</head>
+<body>
+~[wc:admin_header_frame_css]
+<!-- breadcrumb start -->
+<a href="/admin/home.html" target="_top">home</a>
+<!-- breadcrumb end -->
+~[wc:admin_navigation_frame_css]
+<div class="box-round">
+    <div id="Error" name="Error" style="border-color: red;"></div>
+    <div name="pageInfo" id="pageInfo" style="border-color : yellow">
+        <table class="linkDescList">
+            <td>
+                <p>
+                    <b>Select A Student Page for Printing:</b>
+                </p>
+            </td>
+            <td name="methodSelection" id="methodSelection" align="right">
+            </td>
+        </table>
+    </div>
+    <!-- end of content of bounding box -->
+    ~[wc:admin_footer_frame_css]
+</div>
+</body>
+</html>
